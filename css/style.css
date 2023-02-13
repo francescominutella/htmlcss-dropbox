@@ -6,5 +6,18 @@
 }
 
 
-
 /* #endregion Utility */
+
+/* #region DEBUG */
+.dbg .container {
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.dbg > header
+{
+  background-color: orange;
+}
+
+/* #endregion DEBUG */
