@@ -8,12 +8,28 @@
 
 /* #endregion Utility */
 
-/* #region DEBUG */
-.dbg .container {
+/* #region common */
+
+/* #endregion common */
+
+.container {
     width: 100%;
     max-width: 1140px;
     margin: auto;
 }
+
+.d-flex
+{
+  display: flex;
+}
+
+ul.listline {
+    list-style: none;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+/* #region DEBUG */
 
 .dbg > header
 {
