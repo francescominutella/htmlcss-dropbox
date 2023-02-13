@@ -63,6 +63,14 @@
 /* #endregion DEBUG */
 
 /* #region common HEADER */
+
+#app_header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+
 .container-linkmenu {
     width: 100%;
     margin: auto;
