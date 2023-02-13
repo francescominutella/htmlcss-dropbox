@@ -5,19 +5,35 @@
     box-sizing: border-box;
 }
 
+.d-flex {
+    display: flex;
+}
 
 /* #endregion Utility */
+/* #region DEBUG */
 
+.dbg>header {
+    background-color: chartreuse;
+}
+
+.dbg .jumbotron {
+    background-color: darkcyan;
+    height: 500px;
+}
+
+.dbg .jumbo_text {
+    background-color: green;
+}
+
+/* #endregion DEBUG */
 /* #region common HEADER */
-.container {
+.container-linkmenu {
     width: 100%;
     margin: auto;
     position: relative;
 }
 
-.d-flex {
-    display: flex;
-}
+
 
 ul.listline {
     list-style: none;
@@ -28,12 +44,30 @@ ul.listline {
     position: absolute;
     right: 0;
 }
+
 /* #endregion common */
 
-/* #region DEBUG */
+/* #region common MAIN */
 
-.dbg>header {
-    background-color:chartreuse;
+.textcenter {
+    text-align: center;
 }
 
-/* #endregion DEBUG */
+.jumbotron {
+    justify-content: center;
+    align-items: center;
+}
+
+.container_jf{
+    height: 400px;
+    background-color: grey;
+    max-width: 60%;
+}
+
+/* .jumbo_text {
+    height: 400px;
+    margin: auto;
+} */
+
+
+/* #endregion common MAIN */
