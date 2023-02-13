@@ -82,11 +82,23 @@
     border-bottom: 2px solid black;
     padding: 2rem;
 }
-.dbg .image{
-    background-color:purple;
+
+.dbg .image {
+    background-color: purple;
     width: auto;
     height: 100px;
 }
+
+.dbg .jumbottom {
+    background-color:cadetblue;
+    height: 500px;
+}
+.dbg .bring_db{
+    background-color:mediumslateblue;
+    height: 200px;
+    padding: 2rem;
+}
+
 
 /* #endregion DEBUG */
 
@@ -149,25 +161,34 @@ ul.listline {
     width: calc((100% / 12) * 4);
 }
 
-.partner{
+.partner {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-.more_operations{
+.more_operations {
     flex-wrap: wrap;
 }
 
-.pass_less{
+.pass_less {
     width: calc((100% / 12) * 4);
 }
 
-.fivehundredthousen_team{
+.fivehundredthousen_team {
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
 
+.btn_light {
+    display: inline-block; /* <a> ancor tag: quando deve assomigliare a un button sempre INLINE-BLOCK! */
+    padding: 0.2rem 0.5rem;
+    font-size: 1rem;
+    background-color: antiquewhite;
+  }
 
+  .space_between{
+    justify-content: space-between;
+  }
 
-
-    /* #endregion common MAIN */
+  
+/* #endregion common MAIN */
