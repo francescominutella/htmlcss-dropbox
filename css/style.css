@@ -8,32 +8,32 @@
 
 /* #endregion Utility */
 
-/* #region common */
-
-/* #endregion common */
-
+/* #region common HEADER */
 .container {
     width: 100%;
-    max-width: 1140px;
     margin: auto;
+    position: relative;
 }
 
-.d-flex
-{
-  display: flex;
+.d-flex {
+    display: flex;
 }
 
 ul.listline {
     list-style: none;
-    justify-content: center;
     gap: 1rem;
-  }
+}
+
+.menu-rg {
+    position: absolute;
+    right: 0;
+}
+/* #endregion common */
 
 /* #region DEBUG */
 
-.dbg > header
-{
-  background-color: orange;
+.dbg>header {
+    background-color:chartreuse;
 }
 
 /* #endregion DEBUG */
