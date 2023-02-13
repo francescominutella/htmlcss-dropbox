@@ -25,12 +25,12 @@
     background-color: green;
 }
 
-.dbg .business_plan{
-    background-color:cornflowerblue;
+.dbg .business_plan {
+    background-color: cornflowerblue;
     border-bottom: 2px solid red;
 }
 
-.dbg .col4{
+.dbg .col4 {
     background-color: deepskyblue;
     width: 50%;
     border-left: 2px solid black;
@@ -38,33 +38,48 @@
     padding: 2rem;
 }
 
-.dbg .office{
-    background-color:aqua;
+.dbg .office {
+    background-color: aqua;
     width: 100%;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
     padding: 2rem;
 }
 
-.dbg .card{
+.dbg .card {
     width: 200px;
     height: 500px;
-    background-color:deeppink;
+    background-color: deeppink;
     opacity: 0.5;
 }
 
-.dbg .office_card{
+.dbg .office_card {
     width: auto;
     height: 200px;
-    background-color:deeppink;
+    background-color: deeppink;
     opacity: 0.5;
+}
+
+.dbg .item80 {
+    background-color: mediumvioletred;
+    height: 400px;
+    width: 60%;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.dbg .item20 {
+    background-color: fuchsia;
+    width: 40%;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 /* #endregion DEBUG */
 
 /* #region common HEADER */
 
-#app_header{
+#app_header {
     position: sticky;
     top: 0;
     left: 0;
@@ -109,17 +124,19 @@ ul.listline {
 .business_plan {
     width: 50%;
     margin: auto;
+    margin-top: 5rem;
 }
 
-.business_cards{
+.business_cards {
     width: 50%;
     margin: auto;
 }
 
 .col4 {
-    width: calc((100% / 12) * 4;
+    width: calc((100% / 12) * 4);
 }
 
-
-
-/* #endregion common MAIN */
+.office{
+    margin-bottom: 3rem;
+}
+    /* #endregion common MAIN */
