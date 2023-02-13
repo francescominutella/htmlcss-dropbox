@@ -90,11 +90,12 @@
 }
 
 .dbg .jumbottom {
-    background-color:cadetblue;
+    background-color: cadetblue;
     height: 500px;
 }
-.dbg .bring_db{
-    background-color:mediumslateblue;
+
+.dbg .bring_db {
+    background-color: mediumslateblue;
     height: 200px;
     padding: 2rem;
 }
@@ -179,16 +180,20 @@ ul.listline {
     margin-bottom: 3rem;
 }
 
-.btn_light {
-    display: inline-block; /* <a> ancor tag: quando deve assomigliare a un button sempre INLINE-BLOCK! */
-    padding: 0.2rem 0.5rem;
-    font-size: 1rem;
-    background-color: antiquewhite;
-  }
-
-  .space_between{
+.space_between {
     justify-content: space-between;
-  }
+}
 
-  
+.btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    background-color:cornsilk;
+    color: black;
+    justify-content: end;
+}
+.combobox{
+    margin-top: 3rem ;
+    margin-bottom: 3rem;
+}
+
 /* #endregion common MAIN */
