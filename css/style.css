@@ -75,6 +75,19 @@
     border-bottom: 2px solid black;
 }
 
+.dbg .pass_less {
+    background-color: deepskyblue;
+    width: 33.33%;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 2rem;
+}
+.dbg .image{
+    background-color:purple;
+    width: auto;
+    height: 100px;
+}
+
 /* #endregion DEBUG */
 
 /* #region common HEADER */
@@ -136,7 +149,20 @@ ul.listline {
     width: calc((100% / 12) * 4);
 }
 
-.office{
-    margin-bottom: 3rem;
+.partner{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
+
+.more_operations{
+    flex-wrap: wrap;
+}
+
+.pass_less{
+    width: calc((100% / 12) * 4);
+}
+
+
+
+
     /* #endregion common MAIN */
