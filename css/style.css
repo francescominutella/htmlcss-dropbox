@@ -190,9 +190,16 @@ a{
     text-align: center;
 }
 
+.container_jumbo{
+    max-width: 1152px;
+    margin: auto;
+}
+
 .one_place{
     max-width: 1152px;
     margin: auto;
+    font-size: larger;
+    padding-top: 5rem;
 }
 
 .jumbotron {
@@ -200,14 +207,15 @@ a{
     align-items: center;
     max-width: 1152px;
     margin: auto;
+    padding-top: 0;
 }
 
 .w40 {
     width: 40%;
+    
 }
 .w40 {
     width: 60%;
-
 }
 
 
