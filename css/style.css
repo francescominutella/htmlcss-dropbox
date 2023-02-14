@@ -244,11 +244,29 @@ a{
 .col12{
     width: 100%;
 }
+
 .card_4{
-    border: 2px solid gray;
+    border: 1px solid gray;
     width: 100%;
     height: 500px;
 }
+
+.up_banner{
+    height: 2rem;
+    border-bottom: 1px solid gray;
+}
+
+.up_banner ul{
+    list-style: none;
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+
+
+
+
+
 
 .card_12{
     border: 2px solid gray;
@@ -256,6 +274,11 @@ a{
     height: 200px;
     margin-top: 1rem;
 }
+
+
+
+
+
 
 
 .partner {
