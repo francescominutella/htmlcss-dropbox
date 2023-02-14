@@ -168,15 +168,11 @@ a {
     color: black;
 }
 
-.btn {
-    /* <a> ancor tag: quando deve assomigliare a un button sempre INLINE-BLOCK! */
-    padding: 0.2rem 0.5rem;
-    font-size: 1rem;
-}
-
-.btn-blue {
+.menu-rg .btn-blue{
     background-color: var(--ds-btn);
     color: var(--ds-light);
+    padding: 0.2rem 0.5rem;
+    font-size: 1rem;
 }
 
 /* #endregion common */
@@ -339,7 +335,7 @@ a {
 }
 
 .card_12 {
-    border: 2px solid gray;
+    border: 1px solid gray;
     width: 100%;
     margin-top: 1rem;
     position: relative;
