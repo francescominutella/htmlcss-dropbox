@@ -202,6 +202,7 @@ a {
 
 .jumbocolor{
     background-color: var(--ds-primary);
+    height: 600px;
 }
 
 
@@ -218,8 +219,8 @@ a {
 .w40 {
     width: 40%;
     margin-bottom: 2rem;
-    
 }
+
 
 .call_to_action .jumbobtn{
     display: inline-block;
@@ -234,11 +235,12 @@ a {
 }
 
 .jumbotron img{
-    width: 60%;
+    width: 70%;
     position: absolute;
-    right: 0;
-    top: 273px;
+    right: -87px;
+    top: 232px;
 }
+
 
 /* .jumbotron img{
     position: absolute;
@@ -299,7 +301,6 @@ a {
 .middle_banner ul {
     list-style: none;
     width: auto;
-
 }
 
 .card_title ul {
@@ -340,9 +341,26 @@ a {
 .card_12 {
     border: 2px solid gray;
     width: 100%;
-    height: 200px;
     margin-top: 1rem;
+    position: relative;
 }
+
+.solutions{
+    padding: 1.5rem 1rem;
+}
+
+.call_to_action .enterprise_btn{
+    position: absolute;
+    top:50px; 
+    right: 30px;
+    padding: 0.4rem;
+    background-color: var(--ds-btn);
+    color: var(--ds-light);
+    font-size: 10px;
+}
+    
+
+
 
 .partner {
     margin-top: 2rem;
