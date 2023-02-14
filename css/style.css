@@ -190,15 +190,26 @@ a{
     text-align: center;
 }
 
+.one_place{
+    max-width: 1152px;
+    margin: auto;
+}
+
 .jumbotron {
     justify-content: center;
     align-items: center;
+    max-width: 1152px;
+    margin: auto;
 }
 
-.container_jf {
-    height: 400px;
-    max-width: 60%;
+.w40 {
+    width: 40%;
 }
+.w40 {
+    width: 60%;
+
+}
+
 
 .business_plan {
     width: 50%;
