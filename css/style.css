@@ -13,6 +13,25 @@ body {
     display: flex;
 }
 
+:root {
+    --ds-btn: #0061ff;
+    --ds-primary: #b4d0e7;
+    --ds-light: #ffffff;
+    --ds-txtbanner: #610c2f;
+    --ds-designt: #a2d39b;
+    --ds-asu: #61082b;
+    --ds-uf: #0093ce;
+    --ds-topps: #ff1c1c;
+    --ds-wbr: #d5001f;
+    --ds-hearts: #b4d0e7;
+    --ds-lonely: #0d2481;
+    --ds-clear: #ffd830;
+  }
+
+a{
+    text-decoration: none;
+}
+
 /* #endregion Utility */
 /* #region DEBUG */
 
@@ -114,23 +133,54 @@ body {
     top: 0;
     left: 0;
     z-index: 10000;
+    padding: 1rem 1.5rem;
+    background-color: var(--ds-light);
+    box-shadow: 2px 2px 8px gray;
+}
+
+.logo{
+    gap: 2px;
 }
 
 .container-linkmenu {
     width: 100%;
     margin: auto;
     position: relative;
+    color: black;
 }
 
-ul.listline {
+.listline {
     list-style: none;
     gap: 1rem;
+    text-decoration: none;
 }
 
 .menu-rg {
     position: absolute;
     right: 0;
 }
+
+.menu-lf a{
+    color: black;
+}
+
+.menu-rg a{
+    color: black;
+}
+
+.btn {
+    display: inline-block;
+    /* <a> ancor tag: quando deve assomigliare a un button sempre INLINE-BLOCK! */
+    padding: 0.2rem 0.5rem;
+    font-size: 1rem;
+  }
+
+.btn-blue{
+    background-color: var(--ds-btn);
+    color: var(--ds-light);
+}
+
+
 
 /* #endregion common */
 
