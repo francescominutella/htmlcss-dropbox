@@ -180,8 +180,6 @@ a{
     color: var(--ds-light);
 }
 
-
-
 /* #endregion common */
 
 /* #region common MAIN */
@@ -198,13 +196,12 @@ a{
 .one_place{
     max-width: 1152px;
     margin: auto;
-    font-size: larger;
+    font-size: 30px;
     padding-top: 5rem;
 }
 
 .jumbotron {
     justify-content: center;
-    align-items: center;
     max-width: 1152px;
     margin: auto;
     padding-top: 0;
@@ -214,10 +211,10 @@ a{
     width: 40%;
     
 }
-.w40 {
+.w60 {
     width: 60%;
+    height: 60%;
 }
-
 
 .business_plan {
     width: 50%;
@@ -225,14 +222,41 @@ a{
     margin-top: 5rem;
 }
 
+.btn_radio{
+    margin-top: 2rem;
+}
+
 .business_cards {
-    width: 50%;
     margin: auto;
+    width: 50%;
+    padding: 2rem;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .col4 {
-    width: calc((100% / 12) * 4);
+    width: calc((100% / 12) * 3);
 }
+.col12{
+    width: 100%;
+}
+.card_4{
+    border: 2px solid gray;
+    width: 100%;
+    height: 500px;
+}
+
+.card_12{
+    border: 2px solid gray;
+    width: 100%;
+    height: 200px;
+    margin-top: 1rem;
+}
+
 
 .partner {
     margin-top: 2rem;
