@@ -32,6 +32,7 @@ a{
     text-decoration: none;
 }
 
+
 /* #endregion Utility */
 /* #region DEBUG */
 
@@ -249,11 +250,14 @@ a{
     border: 1px solid gray;
     width: 100%;
     height: 500px;
+    font-size: 10px;
 }
 
 .up_banner{
     height: 2rem;
     border-bottom: 1px solid gray;
+    padding: 2px;
+    align-items: center;
 }
 
 .up_banner ul{
@@ -262,11 +266,45 @@ a{
     width: auto;
     justify-content: center;
 }
+.middle_banner ul{
+    list-style: none;
+    width: auto;
+    
+}
 
+.card_title ul{
+    list-style: none;
+    padding: 1.5rem 1rem;
+}
 
+.middle_banner li{
+    margin: 0.4rem 1rem;
+}
 
+.btn_card{
+    margin:1rem;
+}
 
+.buy_now a{
+    display: flex;
+    text-decoration:underline;
+    margin-bottom: ;
+}
+.grayline{
+    width: 10px;
+    height: 10px;
+    margin-bottom: 4px solid gray ;
+}
 
+.points_plan ul{
+    list-style:none;
+    margin: 0.4rem 1rem;
+}
+
+.points_plan h5{
+    list-style:none;
+    margin: 0.4rem 1rem;
+}
 
 .card_12{
     border: 2px solid gray;
@@ -274,12 +312,6 @@ a{
     height: 200px;
     margin-top: 1rem;
 }
-
-
-
-
-
-
 
 .partner {
     margin-top: 2rem;
