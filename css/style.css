@@ -26,9 +26,9 @@ body {
     --ds-hearts: #b4d0e7;
     --ds-lonely: #0d2481;
     --ds-clear: #ffd830;
-  }
+}
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -139,15 +139,15 @@ a{
     box-shadow: 2px 2px 8px gray;
 }
 
-.logo{
+.logo {
     gap: 2px;
 }
 
 .container-linkmenu {
     width: 100%;
     margin: auto;
-    position: relative;
     color: black;
+    justify-content: space-between;
 }
 
 .listline {
@@ -157,26 +157,24 @@ a{
 }
 
 .menu-rg {
-    position: absolute;
     right: 0;
 }
 
-.menu-lf a{
+.menu-lf a {
     color: black;
 }
 
-.menu-rg a{
+.menu-rg a {
     color: black;
 }
 
 .btn {
-    display: inline-block;
     /* <a> ancor tag: quando deve assomigliare a un button sempre INLINE-BLOCK! */
     padding: 0.2rem 0.5rem;
     font-size: 1rem;
-  }
+}
 
-.btn-blue{
+.btn-blue {
     background-color: var(--ds-btn);
     color: var(--ds-light);
 }
@@ -189,12 +187,12 @@ a{
     text-align: center;
 }
 
-.container_jumbo{
+.container_jumbo {
     max-width: 1152px;
     margin: auto;
 }
 
-.one_place{
+.one_place {
     max-width: 1152px;
     margin: auto;
     font-size: 30px;
@@ -202,20 +200,42 @@ a{
 }
 
 .jumbotron {
-    justify-content: center;
+    position: relative;
     max-width: 1152px;
     margin: auto;
     padding-top: 0;
+    position: relative;
 }
 
 .w40 {
     width: 40%;
+    margin-bottom: 2rem;
     
 }
-.w60 {
-    width: 60%;
-    height: 60%;
+
+.call_to_action .jumbobtn{
+    display: inline-block;
+    color:var(--ds-light);
+    margin-bottom: 2rem;
+    background-color: var(--ds-btn);
+    
 }
+.call_to_action .jumbolink{
+    display: block;
+    color: black;
+}
+
+.w60 img{
+    width: 60%;
+    position: absolute;
+    right: 0;
+}
+
+/* .jumbotron img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+} */
 
 .business_plan {
     width: 50%;
@@ -223,7 +243,7 @@ a{
     margin-top: 5rem;
 }
 
-.btn_radio{
+.btn_radio {
     margin-top: 2rem;
 }
 
@@ -233,7 +253,7 @@ a{
     padding: 2rem;
 }
 
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -242,71 +262,73 @@ a{
 .col4 {
     width: calc((100% / 12) * 3);
 }
-.col12{
+
+.col12 {
     width: 100%;
 }
 
-.card_4{
+.card_4 {
     border: 1px solid gray;
     width: 100%;
-    height: 500px;
     font-size: 10px;
 }
 
-.up_banner{
+.up_banner {
     height: 2rem;
     border-bottom: 1px solid gray;
     padding: 2px;
     align-items: center;
 }
 
-.up_banner ul{
+.up_banner ul {
     list-style: none;
     display: flex;
     width: auto;
     justify-content: center;
 }
-.middle_banner ul{
+
+.middle_banner ul {
     list-style: none;
     width: auto;
-    
+
 }
 
-.card_title ul{
+.card_title ul {
     list-style: none;
     padding: 1.5rem 1rem;
 }
 
-.middle_banner li{
+.middle_banner li {
     margin: 0.4rem 1rem;
 }
 
-.btn_card{
-    margin:1rem;
+.btn_card {
+    margin: 1rem;
 }
 
-.buy_now a{
+.buy_now a {
     display: flex;
-    text-decoration:underline;
+    text-decoration: underline;
     margin-bottom: ;
 }
-.grayline{
+
+.grayline {
     width: 10px;
     height: 10px;
-    margin-bottom: 4px solid gray ;
+    margin-bottom: 4px solid gray;
 }
 
-.points_plan ul{
-    list-style:none;
+.points_plan ul {
+    list-style: none;
     margin: 0.4rem 1rem;
 }
 
-.points_plan h5{
-    list-style:none;
+.points_plan h5 {
+    list-style: none;
     margin: 0.4rem 1rem;
 }
 
-.card_12{
+.card_12 {
     border: 2px solid gray;
     width: 100%;
     height: 200px;
