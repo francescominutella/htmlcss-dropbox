@@ -475,6 +475,11 @@ a {
     font-size: 13px;
 }
 
+.front{
+    justify-content: space-between;
+}
+
+
 .hover_fst_dd .fst_dd{
     border: 0;
 }
@@ -482,7 +487,7 @@ a {
 .hover_fst_dd{
     color: black;
     font-size:13px;
-    border-bottom: 1px solid gray;
+    margin-top: 2rem;
 }
 
 .fst_dd .hover_fst_dd{
