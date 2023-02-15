@@ -414,6 +414,30 @@ a {
     margin-bottom: 4rem;
 }
 
+.row_brands{
+    display: flex;
+    width: calc((100% / 12) * 4);
+}
+
+.col4_brands img{
+    width: calc((100% / 12) * 4);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .bring_db{
     background-color: var(--ds-primary);
 }
@@ -431,6 +455,9 @@ a {
     border: 1px solid gray;
     padding: 0.3rem 2rem ;
 }
+
+
+
 
 
 
