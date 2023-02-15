@@ -139,6 +139,22 @@ a {
     box-shadow: 2px 2px 8px gray;
 }
 
+.underline{
+    position: relative;
+    display: inline-block;
+}
+
+.underline::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: var(--ds-btn);
+}
+
+
 .logo {
     gap: 2px;
 }
@@ -550,50 +566,6 @@ a {
     display: block;
 }
 /* #endregion 2nd DROPDOWNmenu */
-
-
-
-
-
-
-
-
-
-
-/* .fst_dd{
-    position: relative;
-}
-
-.fst_dd .hover_fst_dd{
-    position: absolute;
-    left: 0;
-    top: 0;
-    display: none;
-    background-color: var(--ds-light);
-}
-
-.fst_dd:hover .hover_fst_dd {
-    display: block;
-    background-color: var(--ds-light);
-} */
-
-/* .snd_dd{
-    position: relative;
-}
-
-.snd_dd .hover_snd_dd{
-    position: absolute;
-    left: 0;
-    top: 0;
-    display: none;
-    background-color: var(--ds-light);
-}
-
-.snd_dd:hover .hover_snd_dd {
-    display: block;
-    background-color: var(--ds-light);
-} */
-
 
 
 /* #endregion common MAIN */
