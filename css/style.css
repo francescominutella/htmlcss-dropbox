@@ -449,5 +449,28 @@ a {
     color: white;
 }
 
+.container_footer{
+    max-width: 1152px;
+    margin: auto;
+    padding-top: 0;
+    height: 600px;
+    margin-top: 3rem;
+}
+
+.container_footer .row{
+    flex-wrap: nowrap;
+}
+
+.container_footer h4{
+    padding-bottom: 1.5rem;
+    color: var(--ds-light);
+}
+
+.container_footer li{
+    padding-bottom: 1rem;
+    font-size: 10px;
+}
+
+
 
 /* #endregion common FOOTER */
