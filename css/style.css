@@ -479,7 +479,7 @@ a {
     justify-content: space-between;
 }
 
-
+/* #region 1st DROPDOWNmenu */
 .hover_fst_dd .fst_dd{
     border: 0;
 }
@@ -501,8 +501,55 @@ a {
 .fst_dd:hover .hover_fst_dd{
     display: block;
 }
+/* #endregion 1st DROPDOWNmenu */
 
+/* #region 2nd DROPDOWNmenu */
+.hover_snd_dd .snd_dd{
+    border: 0;
+}
 
+.hover_snd_dd{
+    color: black;
+    font-size:13px;
+    margin-top: 2rem;
+}
+
+.snd_dd .hover_snd_dd{
+    display: none;
+}
+
+.snd_dd:hover .snd_dd{
+    display: none;
+}
+
+.snd_dd:hover .hover_snd_dd{
+    display: block;
+}
+/* #endregion 2nd DROPDOWNmenu */
+
+/* #region 3rd DROPDOWNmenu */
+.hover_trd_dd .trd_dd{
+    border: 0;
+}
+
+.hover_trd_dd{
+    color: black;
+    font-size:13px;
+    margin-top: 2rem;
+}
+
+.trd_dd .hover_trd_dd{
+    display: none;
+}
+
+.trd_dd:hover .trd_dd{
+    display: none;
+}
+
+.trd_dd:hover .hover_trd_dd{
+    display: block;
+}
+/* #endregion 2nd DROPDOWNmenu */
 
 
 
