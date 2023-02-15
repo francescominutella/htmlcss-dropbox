@@ -148,12 +148,16 @@ a {
     content: "";
     position: absolute;
     height: 2px;
+    width: 0;
     left: 0;
     bottom: 0;
     background-color: var(--ds-btn);
+    transition: opacity 300ms, transform 0.5s;
 }
+
 .underline:hover::before{
     width: 100%;
+    transform: translate3d(0, 0.2em, 0);
 }
 
 
