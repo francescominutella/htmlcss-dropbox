@@ -382,14 +382,20 @@ a {
     border: 1px solid gray;
 }
 
+.operation_db{
+    margin-top: 10rem;
+}
+
 .more_operations {
     flex-wrap: wrap;
-    margin-top: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 10rem;
 }
 
 .pass_less {
     width: calc((100% / 12) * 4);
-    padding: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
 }
 
 .pass_less img{
@@ -399,12 +405,13 @@ a {
     margin-bottom: 1.5rem;
 }
 
+.fivehundredthousen_team a{
+    text-decoration: underline;
+    color: var(--ds-btn);
+}
 
-
-
-.fivehundredthousen_team {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+.fivehundredthousen_team h3{
+    margin-bottom: 4rem;
 }
 
 .space_between {
