@@ -453,7 +453,6 @@ a {
     max-width: 1152px;
     margin: auto;
     padding-top: 0;
-    height: 600px;
     margin-top: 3rem;
 }
 
@@ -471,6 +470,16 @@ a {
     font-size: 10px;
 }
 
+.italian{
+    border-top: 1px solid gray;
+    width: calc((100% / 30) * 2);
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+}
+
+.footer_bottom .italian a, .footer_bottom .italian i{
+    color: gray;
+}
 
 
 /* #endregion common FOOTER */
