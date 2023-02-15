@@ -443,8 +443,7 @@ a {
 
 
 .dropdown {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    display: block;
 }
 
 .fst_dd{
@@ -486,7 +485,30 @@ a {
     border-bottom: 1px solid gray;
 }
 
-.fst_dd{
+.fst_dd .hover_fst_dd{
+    display: none;
+}
+
+.fst_dd:hover .fst_dd{
+    display: none;
+}
+
+.fst_dd:hover .hover_fst_dd{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .fst_dd{
     position: relative;
 }
 
@@ -495,12 +517,30 @@ a {
     left: 0;
     top: 0;
     display: none;
+    background-color: var(--ds-light);
 }
 
 .fst_dd:hover .hover_fst_dd {
     display: block;
+    background-color: var(--ds-light);
+} */
+
+/* .snd_dd{
+    position: relative;
 }
 
+.snd_dd .hover_snd_dd{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    background-color: var(--ds-light);
+}
+
+.snd_dd:hover .hover_snd_dd {
+    display: block;
+    background-color: var(--ds-light);
+} */
 
 
 
