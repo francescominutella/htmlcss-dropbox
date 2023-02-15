@@ -476,6 +476,32 @@ a {
     font-size: 13px;
 }
 
+.hover_fst_dd .fst_dd{
+    border: 0;
+}
+
+.hover_fst_dd{
+    color: black;
+    font-size:13px;
+    border-bottom: 1px solid gray;
+}
+
+.fst_dd{
+    position: relative;
+}
+
+.fst_dd .hover_fst_dd{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.fst_dd:hover .hover_fst_dd {
+    display: block;
+}
+
+
 
 
 /* #endregion common MAIN */
