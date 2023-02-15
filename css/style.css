@@ -414,9 +414,25 @@ a {
     margin-bottom: 4rem;
 }
 
-.space_between {
+.bring_db{
+    background-color: var(--ds-primary);
+}
+
+.your_company {
     justify-content: space-between;
 }
+.your_company h3{
+    color: var(--ds-txtbanner);
+}
+
+.company_btn a{
+    color: black;
+    background-color: var(--ds-light);
+    border: 1px solid gray;
+    padding: 0.3rem 2rem ;
+}
+
+
 
 .combobox {
     margin-top: 3rem;
