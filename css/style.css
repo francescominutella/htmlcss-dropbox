@@ -423,21 +423,6 @@ a {
     width: calc((100% / 12) * 4);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .bring_db{
     background-color: var(--ds-primary);
 }
@@ -457,14 +442,29 @@ a {
 }
 
 
-
-
-
-
-.combobox {
+.dropdown {
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
+
+.dropdown h3{
+    color: black;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.fst_dd{
+    color: black;
+    justify-content: space-between;
+    padding: 1.4rem 0rem;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding-right: 2rem;
+    align-items: baseline;
+    font-size: 10px;
+}
+
+
 
 /* #endregion common MAIN */
 
