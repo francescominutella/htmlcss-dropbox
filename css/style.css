@@ -168,7 +168,7 @@ a {
     color: black;
 }
 
-.menu-rg .btn-blue{
+.menu-rg .btn-blue {
     background-color: var(--ds-btn);
     color: var(--ds-light);
     padding: 0.2rem 0.5rem;
@@ -196,7 +196,7 @@ a {
     margin-bottom: 30px;
 }
 
-.jumbocolor{
+.jumbocolor {
     background-color: var(--ds-primary);
     height: 600px;
 }
@@ -209,7 +209,7 @@ a {
     padding-top: 0;
     position: relative;
     height: 600px;
-    
+
 }
 
 .w40 {
@@ -218,19 +218,21 @@ a {
 }
 
 
-.call_to_action .jumbobtn{
+.call_to_action .jumbobtn {
     display: inline-block;
-    color:var(--ds-light);
+    color: var(--ds-light);
     margin-bottom: 2rem;
     background-color: var(--ds-btn);
-    
+    padding: 1rem;
+
 }
-.call_to_action .jumbolink{
+
+.call_to_action .jumbolink {
     display: block;
     color: black;
 }
 
-.jumbotron img{
+.jumbotron img {
     width: 70%;
     position: absolute;
     right: -87px;
@@ -341,27 +343,47 @@ a {
     position: relative;
 }
 
-.solutions{
+.solutions {
     padding: 1.5rem 1rem;
 }
 
-.call_to_action .enterprise_btn{
+.call_to_action .enterprise_btn {
     position: absolute;
-    top:50px; 
+    top: 50px;
     right: 30px;
     padding: 0.4rem;
     background-color: var(--ds-btn);
     color: var(--ds-light);
     font-size: 10px;
 }
-    
-
-
 
 .partner {
-    margin-top: 2rem;
+    margin-top: 10rem;
     margin-bottom: 2rem;
+    width: 100%;
 }
+
+.partner img {
+    width: 60%;
+}
+
+.partner div {
+    padding: 2rem 2rem;
+}
+.partner h3{
+    margin-bottom: 1rem;
+}
+.partner_btn{
+    display: inline-block;
+    color: black;
+    margin-top: 1.5rem;
+    background-color: var(--ds-light);
+    padding: 0.4rem;
+    border: 1px solid gray;
+}
+
+
+
 
 .more_operations {
     flex-wrap: wrap;
