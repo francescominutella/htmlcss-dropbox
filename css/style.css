@@ -443,15 +443,11 @@ a>i {
 .brands_card {
     background-color: gray;
     height: 50vh;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .brands_lf {
-    display: flex;
     flex-wrap: wrap;
     height: 100%;
-    justify-content: center;
     border: 3px solid black;
 }
 
