@@ -466,6 +466,11 @@ a>i {
     border: 1px solid beige;
 }
 
+.brands_card img{
+    width: 60%;
+}
+
+
 
 /* .left_bn {
     display: grid;
