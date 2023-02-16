@@ -440,22 +440,29 @@ a>i {
     margin-bottom: 4rem;
 }
 
-.brands_card{
+.brands_card {
     background-color: gray;
     height: 400px;
     display: flex;
 }
 
 
-.row_brands_lf {
+.brands_lf {
     display: flex;
     width: calc((100% / 12) * 4);
-    background-color: #0061ff;
+    border:1px solid black;
 }
 
-.col4_brands img {
-    width: calc((100% / 12) * 4);
+/* .left_bn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
 }
+
+.left_bn div {
+    background-color: red;
+} */
+
 
 .bring_db {
     background-color: var(--ds-primary);
