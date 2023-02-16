@@ -448,10 +448,18 @@ a>i {
 
 
 .brands_lf {
-    display: flex;
     width: calc((100% / 12) * 4);
     border:1px solid black;
 }
+
+.left_bn{
+    border: 1px solid white;
+    width:calc(100% / 2);
+}
+
+
+
+
 
 /* .left_bn {
     display: grid;
