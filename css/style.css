@@ -21,12 +21,13 @@ body {
     --ds-designt: #a2d39b;
     --ds-asu: #61082b;
     --ds-uf: #0093ce;
-    --ds-center:#f5f5f5;
+    --ds-center: #f5f5f5;
     --ds-topps: #ff1c1c;
     --ds-wbr: #d5001f;
     --ds-hearts: #b4d0e7;
     --ds-lonely: #0d2481;
     --ds-clear: #ffd830;
+    --ds-bordergreen:#d1e9cd;
 }
 
 a {
@@ -447,19 +448,18 @@ a>i {
     margin: auto;
 }
 
-
-.brands_lf img{
-    width: 60%;
-    display: flex;
-    justify-content: center;
+.brands_lf img {
+    width: 50%;
     filter: invert(100%);
+    display: block;
+    margin: auto;
 }
 
 .brands {
     height: 100%;
 }
 
-.square_bn{
+.square_bn {
     width: 300px;
     height: 25vh;
     color: var(--ds-light);
@@ -469,52 +469,69 @@ a>i {
     height: 100%;
 }
 
-.center_bd{
-    width: 600px;
-    height: 50vh;
-}
-
-.square_bn_green{
+.square_bn_green {
     width: 300px;
     height: 25vh;
     background-color: var(--ds-designt);
+    border: 10px solid var(--ds-bordergreen);
+    /* background-image: linear-gradient(to right, var(--ds-bordergreen), var(--ds-designt) ); */
 }
-.square_bn_brown{
+
+.square_bn_brown {
     width: 300px;
     height: 25vh;
     background-color: var(--ds-asu);
 }
-.square_bn_skyblue{
+
+.square_bn_skyblue {
     width: 300px;
     height: 25vh;
     background-color: var(--ds-uf);
 }
-.square_bn_red{
+
+.square_bn_red {
     width: 300px;
     height: 25vh;
     background-color: var(--ds-topps);
 }
-.center_bd_lightgray{
+
+.center_bd_lightgray {
     width: 600px;
     height: 50vh;
     background-color: var(--ds-center);
+    padding: 2rem;
 }
-.square_bn_darkred{
+
+.cutline{
+    width: 160px;
+    border-top:1px solid lightgray;
+    margin-bottom: 1.5rem;
+}
+.members{
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+
+.square_bn_darkred {
     width: 300px;
     height: 25vh;
     background-color: var(--ds-wbr);
 }
-.square_bn_darkblue{
+
+.square_bn_darkblue {
     width: 300px;
     height: 25vh;
     background-color: var(--ds-lonely);
 }
-.square_bn_lightblue{
+
+.square_bn_lightblue {
     width: 300px;
     height: 25vh;
     background-color: var(--ds-hearts);
 }
-.square_bn_yellow{
+
+.square_bn_yellow {
     width: 300px;
     height: 25vh;
     background-color: var(--ds-clear);
