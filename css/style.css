@@ -442,10 +442,9 @@ a>i {
 
 .brands_card {
     background-color: gray;
-    height: 400px;
+    height: 50vh;
     display: flex;
 }
-
 
 .brands_lf {
     width: calc((100% / 12) * 4);
