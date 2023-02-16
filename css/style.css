@@ -440,9 +440,17 @@ a>i {
     margin-bottom: 4rem;
 }
 
-.row_brands {
+.brands_card{
+    background-color: gray;
+    height: 400px;
+    display: flex;
+}
+
+
+.row_brands_lf {
     display: flex;
     width: calc((100% / 12) * 4);
+    background-color: #0061ff;
 }
 
 .col4_brands img {
