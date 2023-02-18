@@ -29,6 +29,11 @@ body {
     --ds-clear: #ffd830;
     --ds-bordergreen:#d1e9cd;
 }
+
+img{
+    max-width: 100%;
+}
+
 /* #endregion Common */
 
 /* #region utility */
