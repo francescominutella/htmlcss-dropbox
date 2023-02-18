@@ -287,6 +287,8 @@ a>i {
     padding: 2rem;
 }
 
+
+/* #region GRID */
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -381,6 +383,8 @@ a>i {
     color: var(--ds-light);
     font-size: 10px;
 }
+
+/* #endregion myGRID */
 
 .partner {
     margin-top: 10rem;
