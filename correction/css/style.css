@@ -49,9 +49,10 @@ img{
   max-width: 1152px;
   margin: auto;
 }
-
+.lst-unstyle{
+    list-style: none;
+}
 /* #endregion utility */
-
 
 /* #region HEADER */
 #app-header{
@@ -144,8 +145,57 @@ img{
 
 /* #region business GRID */
 
-/* #endregion business GRID */
+.container_grid
+{
+  max-width: 1000px;
+  margin: auto;
+  padding: 5rem 0;
+}
 
+.card{
+    border: 1px solid gainsboro;
+}
+
+.pdg-2{
+    padding-top: 2rem;
+}
+
+.row
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+}
+.col4
+{
+  width: calc(100% / 12 * 4);
+}
+.col12{
+    width: 100%;
+}
+
+[class^="col"]{
+  padding: 1rem;
+}
+
+.card-header{
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    border-bottom: 1px solid gainsboro; ;
+}
+.card-main{
+    padding: 1rem;
+}
+.txt-month{
+    color: lightgray;
+}
+.business_plan ul.lst-unstyle li{
+    align-items: baseline;
+    gap: 0.5rem;
+    display: flex;
+}
+
+/* #endregion businessGRID*/
 
 
 /* #endregion MAIN */
