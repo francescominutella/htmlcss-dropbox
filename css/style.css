@@ -143,6 +143,7 @@ a>i {
     padding: 1rem 1.5rem;
     background-color: var(--ds-light);
     box-shadow: 2px 2px 8px gray;
+    padding: 1.5rem 1rem;
 }
 
 .underline {
