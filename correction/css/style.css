@@ -114,10 +114,13 @@ body {
 
 /* #region MAIN */
 
-.jumbo h1{
+.jumbotron h1{
     font-size: 3rem;
     padding: 2.5rem 0;
 }
 
+.jumbotron{
+    background-color: var(--ds-hearts);
+}
 
 /* #endregion MAIN */
