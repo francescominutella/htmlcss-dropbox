@@ -211,6 +211,9 @@ img{
     padding-bottom: 2rem;
 }
 
+.blueflaggy i{
+    color: var(--ds-btn);
+}
 
 
 /* #endregion CARDs */
