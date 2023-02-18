@@ -43,6 +43,9 @@ img{
     padding: 0.5rem 0.5rem;
     display: inline-block;
 }
+.btn-block{
+    display: block;
+}
 
 .container
 {
@@ -177,7 +180,7 @@ img{
 [class^="col"]{
   padding: 1rem;
 }
-
+/* #region CARDs */
 .card-header{
     padding: 0.5rem 0.5rem;
     text-align: center;
@@ -194,6 +197,23 @@ img{
     gap: 0.5rem;
     display: flex;
 }
+
+.business_plan .call_to_action hr{
+    width: 80px;
+}
+
+.business_plan .call_to_action{
+    margin: 2rem 0;
+}
+
+.pdg-2-cta{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+
+/* #endregion CARDs */
 
 /* #endregion businessGRID*/
 
