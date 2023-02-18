@@ -48,6 +48,7 @@
 #app-header nav{
     height: 100%;
     align-items: center;
+    gap: 1rem;
 }
 
 #app-header .menu-left,
@@ -57,16 +58,24 @@
     flex-grow: 1;
     text-decoration: none;
     display: flex;
+    
 }
 
-#app-header a {
+#app-header ul a {
     text-decoration: none;
+    color: black;
 }
 
 #app-header .menu-right{
     justify-content: end;
+    
 }
 
+.btn-blue{
+    background-color: var(--ds-btn);
+    color: var(--ds-light);
+    text-decoration: none;
+}
 
 
 /* #endregion HEADER */
