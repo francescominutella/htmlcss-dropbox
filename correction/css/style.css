@@ -5,9 +5,19 @@
     box-sizing: border-box;
 }
 
+.d-flex
+{
+  display: flex;
+}
+
 /* #region HEADER */
-
-
+#app-header .menu-left,
+#app-header .menu-right
+{
+  list-style: none;
+  gap: 0.25rem;
+  flex-grow: 1;
+}
 
 
 /* #endregion HEADER */
