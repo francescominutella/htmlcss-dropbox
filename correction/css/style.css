@@ -196,6 +196,11 @@ img{
     align-items: baseline;
     gap: 0.5rem;
     display: flex;
+    padding: 0.5rem;
+}
+.business_plan .price{
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
 }
 
 .business_plan .call_to_action hr{
@@ -214,6 +219,7 @@ img{
 .blueflaggy i{
     color: var(--ds-btn);
 }
+
 
 
 /* #endregion CARDs */
