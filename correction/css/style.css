@@ -128,4 +128,9 @@ img{
     background-color: var(--ds-hearts);
 }
 
+.jumbotron img{
+    margin-bottom: -4rem;
+}
+
+
 /* #endregion MAIN */
