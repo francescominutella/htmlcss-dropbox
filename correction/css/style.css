@@ -25,6 +25,13 @@
     --ds-clear: #ffd830;
     --ds-bordergreen:#d1e9cd;
 }
+
+.btn{
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+}
+
+
 /* #endregion Common */
 
 /* #region HEADER */
@@ -41,7 +48,6 @@
 #app-header nav{
     height: 100%;
     align-items: center;
-    align-items: baseline;
 }
 
 #app-header .menu-left,
